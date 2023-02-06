@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.smiley{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+    background-color:yellow;
+    animation: shikha 5s linear alternate;
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+@keyframes shikha{
+    0%{
+        top: 0;
+        left: 0;
+    }
+50%{
+    top: 0;
+    left: 85%;
+    transform: rotate(360deg);
+}
+100%{
+    top: 0;
+    left: 0;
+}
+}
+
+.lefteye{
+
+    border: 1px solid black;
+    height: 43px;
+    width: 22px;
+    position: absolute;
+    left: 3rem;
+    top: 4rem;
+    border-radius: 50%;
+    background-color: white;
+    animation: shi 1s 6s  ;
+}
+
+@keyframes shi{
+    0%{
+        top:4rem;
+        height: 43px;
+    }
+    50%{
+        top:6rem;
+        height: 0;
+    }
+    100%{
+        top: 4rem;
+        height: 43px;
+    }
+}
+
+.righteye{
+    border: 1px solid black;
+    height: 43px;
+    width: 22px;
+    position: absolute;
+    left: 8rem;
+    top: 4rem;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.lefteyecolour{
+    border: 1px solid black;
+    height: 21px;
+    width: 16px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 82px;
+    right: 131px;
+}
+
+.righteyecolour{
+    border: 1px solid black;
+    height: 21px;
+    width: 16px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 82px;
+    right: 131px;
+    left: 133px;
+}
+
+.nose{
+    width: 7px;
+    height: 39px;
+    border-radius: 50%;
+    right: 6rem;
+    position: absolute;
+    border: 1px solid;
+    top: 6rem;
+    background-color: white;
+}
+
+.mouth{
+    border-bottom: 1px solid;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 29px;
+    right: 60px;
+}
+
+.leftbrow{
+    height: 37px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    border-top: 1px solid;
+    left: 7rem;
+    top: 3rem;
+}
+
+.rightbrow{
+    height: 37px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    border-top: 1px solid ;
+    left: 2rem;
+    top: 3rem;
+}
